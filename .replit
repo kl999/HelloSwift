@@ -1,4 +1,4 @@
-compile = "swiftc -o main main.swift"
+compile = "swiftc -o main $(find . -type f -name '*.swift')"
 run = "./main"
 entrypoint = "main.swift"
 
